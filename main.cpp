@@ -5,8 +5,8 @@
 
 
   //Pick a base system. For this lets say inches. Everything will be relative of inches
-  // Uses a map to convert between them and a convert function. Simple and runs in O(1); Constant time
-  //  std::unordered_map<std::string,double> converter;
+  // Uses a map and formula to convert between them and a convert function. Simple and runs in O(1); Constant time
+  
 struct converter{
   converter(){
     this->units.insert({"inches",1.0});
